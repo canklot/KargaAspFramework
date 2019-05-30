@@ -438,7 +438,7 @@
                         <div class="mybox boxsizing">
                             <asp:Label CssClass="urunfiyat" ID="Label2" runat="server" Text="45,99"></asp:Label>
                         </div>
-                        <div class="mybox boxsizing">
+                        <div class="mybox boxsizing" style="margin-top:5px" >
                             <asp:Label CssClass="urunaciklama" ID="Label1" runat="server" Text="CAPTAIN AMERICA T-SHIRT"></asp:Label>
                         </div>
 
