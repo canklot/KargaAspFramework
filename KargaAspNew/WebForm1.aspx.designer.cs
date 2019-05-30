@@ -1084,13 +1084,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.TextBox TextBox8;
         
         /// <summary>
-        /// GÜvenlik_kodu denetimi.
+        /// guvenlik_kodu denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label GÜvenlik_kodu;
+        protected global::System.Web.UI.WebControls.Label guvenlik_kodu;
         
         /// <summary>
         /// guval denetimi.
@@ -1111,13 +1111,13 @@ namespace KargaAspNew {
         protected global::System.Web.UI.WebControls.Button Yeni_uyeol;
         
         /// <summary>
-        /// sifremiunnututm_panel denetimi.
+        /// sifremiunnututm denetimi.
         /// </summary>
         /// <remarks>
         /// Otomatik üretilmiş alan.
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel sifremiunnututm_panel;
+        protected global::System.Web.UI.WebControls.Panel sifremiunnututm;
         
         /// <summary>
         /// sifremiunuttum_mail denetimi.

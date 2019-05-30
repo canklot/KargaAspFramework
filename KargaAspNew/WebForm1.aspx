@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="KargaAspNew.WebForm1" %>
 
     <!DOCTYPE html>
 
@@ -461,7 +461,7 @@
                     <asp:TextBox ID="TextBox5" cssclass="yeniuyeol" placeholder="Şifre" runat="server"></asp:TextBox>
                     <asp:TextBox ID="TextBox6" cssclass="yeniuyeol" placeholder="Şifre Tekrar" runat="server"></asp:TextBox>
                     <asp:TextBox ID="TextBox8" cssclass="yeniuyeol" placeholder="Cep Telefonu" runat="server"></asp:TextBox>
-                    <asp:Label ID="GÜvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
+                    <asp:Label ID="guvenlik_kodu" cssclass="yeniuyeol" runat="server" Text="Güvenlik kodu"></asp:Label>
                     <asp:TextBox ID="guval" cssclass="yeniuyeol" placeholder="Güvenlik kodunu giriniz" runat="server"></asp:TextBox>
                     <asp:Button ID="Yeni_uyeol" cssclass="butonum" OnClick="Yeni_uyeol_Click" runat="server" Text="Üye ol" />
 

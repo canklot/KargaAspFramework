@@ -24,7 +24,7 @@ namespace KargaAspNew
         {
             if (!Page.IsPostBack) //------------- if'in içi sadece birkez çalışıyor
             {
-                GÜvenlik_kodu.Text = guvenlikkodugndr().ToString();
+                guvenlik_kodu.Text = guvenlikkodugndr().ToString();
                 sifremiunuttum_guvenlik_label.Text = guvenlikkodugndr().ToString();
             }
             
@@ -320,7 +320,7 @@ namespace KargaAspNew
         protected void Yeni_uyeol_Click(object sender, EventArgs e)
         {
             
-            if (guval.Text == GÜvenlik_kodu.Text)
+            if (guval.Text == guvenlik_kodu.Text)
             {
                 
                 Response.Write("<script>alert('" + kayitol(TextBox2.Text, TextBox3.Text, TextBox5.Text, TextBox6.Text, Convert.ToInt64(TextBox8.Text), TextBox4.Text) + "')</script>");
@@ -638,7 +638,7 @@ namespace KargaAspNew
         protected void Sifremi_unuttum_Click(object sender, EventArgs e)
         {
             gorunmezyaphepsi();
-            gorunuryap(sifremiunnututm_panel);
+            gorunuryap(sifremiunnututm);
         }
     }
 }
