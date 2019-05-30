@@ -33,14 +33,14 @@
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Anahtarliklar" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
+                            <asp:Button ID="Anahtarliklar" CssClass="solbuton" runat="server" Text="Anahtarlıklar" OnClick="Anahtarliklar_Click" />
                         </div>
                     </div>
                     <hr>
 
                     <div style=" margin-left:2%" class="rowside sideitems">
                         <div class="columnside beyaz ">
-                            <asp:Button ID="Abajurlar" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
+                            <asp:Button ID="Abajurlar" CssClass="solbuton" runat="server" Text="Abajurlar" OnClick="Abajurlar_Click" />
                         </div>
                     </div>
                     <hr>
@@ -70,7 +70,7 @@
                     </div>
                     <hr>
 
-                     <div class="rowside sideitems sideitemsright center">
+                     <div class="rowside  sideitemsright ">
                         <div class="columnside beyaz  ">
                             <asp:TextBox ID="password" CssClass="mytextbox " runat="server" BackColor="#D5D5D5"></asp:TextBox>
                         </div>
